@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D0926352BE799690039E155 /* GetPremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0926342BE799690039E155 /* GetPremiumView.swift */; };
+		5D0926372BE7997D0039E155 /* MainScreenPremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0926362BE7997D0039E155 /* MainScreenPremiumView.swift */; };
+		5D9352692BD188E40006D5BF /* TOS.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D9352682BD188E40006D5BF /* TOS.txt */; };
+		5D99548C2BD020F9001780FB /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99548B2BD020F9001780FB /* RegisterView.swift */; };
+		5D99548E2BD0210E001780FB /* CreatingAccView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99548D2BD0210E001780FB /* CreatingAccView.swift */; };
+		5D9954902BD02142001780FB /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99548F2BD02142001780FB /* LoadingView.swift */; };
+		5DA019C12BD6B9D70025BF83 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA019C02BD6B9D70025BF83 /* SettingsView.swift */; };
+		5DA019C32BD6B9F40025BF83 /* AllModulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA019C22BD6B9F40025BF83 /* AllModulesView.swift */; };
+		5DA019C52BD6C6D40025BF83 /* CardPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA019C42BD6C6D40025BF83 /* CardPaymentView.swift */; };
+		5DA019C72BD6C7470025BF83 /* FakeSocialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA019C62BD6C7470025BF83 /* FakeSocialView.swift */; };
+		5DBA8DB22BCECD6F002B1E26 /* CENTERtainmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA8DB12BCECD6F002B1E26 /* CENTERtainmentApp.swift */; };
+		5DBA8DB42BCECD6F002B1E26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA8DB32BCECD6F002B1E26 /* ContentView.swift */; };
+		5DBA8DB62BCECD70002B1E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA8DB52BCECD70002B1E26 /* Assets.xcassets */; };
+		5DBA8DB92BCECD70002B1E26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA8DB82BCECD70002B1E26 /* Preview Assets.xcassets */; };
+		5DBA8DC02BCECDF0002B1E26 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA8DBF2BCECDF0002B1E26 /* Properties.swift */; };
+		5DBA8DC22BCED7D5002B1E26 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA8DC12BCED7D5002B1E26 /* LoginView.swift */; };
+		5DDC28C92BD2BEA900248682 /* TransitionView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDC28C82BD2BEA900248682 /* TransitionView1.swift */; };
+		5DDC28CB2BD2C23600248682 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDC28CA2BD2C23600248682 /* MainScreenView.swift */; };
+		5DE9A7012BEBB80E0004F8C4 /* PayForPremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE9A7002BEBB80E0004F8C4 /* PayForPremiumView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D0926342BE799690039E155 /* GetPremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPremiumView.swift; sourceTree = "<group>"; };
+		5D0926362BE7997D0039E155 /* MainScreenPremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenPremiumView.swift; sourceTree = "<group>"; };
+		5D9352682BD188E40006D5BF /* TOS.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TOS.txt; sourceTree = "<group>"; };
+		5D99548B2BD020F9001780FB /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		5D99548D2BD0210E001780FB /* CreatingAccView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingAccView.swift; sourceTree = "<group>"; };
+		5D99548F2BD02142001780FB /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		5DA019C02BD6B9D70025BF83 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5DA019C22BD6B9F40025BF83 /* AllModulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllModulesView.swift; sourceTree = "<group>"; };
+		5DA019C42BD6C6D40025BF83 /* CardPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPaymentView.swift; sourceTree = "<group>"; };
+		5DA019C62BD6C7470025BF83 /* FakeSocialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeSocialView.swift; sourceTree = "<group>"; };
+		5DBA8DAE2BCECD6F002B1E26 /* CENTERtainment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CENTERtainment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBA8DB12BCECD6F002B1E26 /* CENTERtainmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CENTERtainmentApp.swift; sourceTree = "<group>"; };
+		5DBA8DB32BCECD6F002B1E26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5DBA8DB52BCECD70002B1E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DBA8DB82BCECD70002B1E26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DBA8DBF2BCECDF0002B1E26 /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
+		5DBA8DC12BCED7D5002B1E26 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5DDC28C82BD2BEA900248682 /* TransitionView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView1.swift; sourceTree = "<group>"; };
+		5DDC28CA2BD2C23600248682 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		5DE9A7002BEBB80E0004F8C4 /* PayForPremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayForPremiumView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DBA8DAB2BCECD6F002B1E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DBA8DA52BCECD6F002B1E26 = {
+			isa = PBXGroup;
+			children = (
+				5DBA8DB02BCECD6F002B1E26 /* CENTERtainment */,
+				5DBA8DAF2BCECD6F002B1E26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DBA8DAF2BCECD6F002B1E26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA8DAE2BCECD6F002B1E26 /* CENTERtainment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DBA8DB02BCECD6F002B1E26 /* CENTERtainment */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA8DB12BCECD6F002B1E26 /* CENTERtainmentApp.swift */,
+				5DBA8DB32BCECD6F002B1E26 /* ContentView.swift */,
+				5DBA8DC12BCED7D5002B1E26 /* LoginView.swift */,
+				5D99548B2BD020F9001780FB /* RegisterView.swift */,
+				5D99548D2BD0210E001780FB /* CreatingAccView.swift */,
+				5D9352682BD188E40006D5BF /* TOS.txt */,
+				5D99548F2BD02142001780FB /* LoadingView.swift */,
+				5DDC28C82BD2BEA900248682 /* TransitionView1.swift */,
+				5DDC28CA2BD2C23600248682 /* MainScreenView.swift */,
+				5DBA8DB52BCECD70002B1E26 /* Assets.xcassets */,
+				5DBA8DB72BCECD70002B1E26 /* Preview Content */,
+				5DBA8DBF2BCECDF0002B1E26 /* Properties.swift */,
+				5DA019C02BD6B9D70025BF83 /* SettingsView.swift */,
+				5DA019C22BD6B9F40025BF83 /* AllModulesView.swift */,
+				5DA019C42BD6C6D40025BF83 /* CardPaymentView.swift */,
+				5DA019C62BD6C7470025BF83 /* FakeSocialView.swift */,
+				5D0926342BE799690039E155 /* GetPremiumView.swift */,
+				5DE9A7002BEBB80E0004F8C4 /* PayForPremiumView.swift */,
+				5D0926362BE7997D0039E155 /* MainScreenPremiumView.swift */,
+			);
+			path = CENTERtainment;
+			sourceTree = "<group>";
+		};
+		5DBA8DB72BCECD70002B1E26 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA8DB82BCECD70002B1E26 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DBA8DAD2BCECD6F002B1E26 /* CENTERtainment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBA8DBC2BCECD70002B1E26 /* Build configuration list for PBXNativeTarget "CENTERtainment" */;
+			buildPhases = (
+				5DBA8DAA2BCECD6F002B1E26 /* Sources */,
+				5DBA8DAB2BCECD6F002B1E26 /* Frameworks */,
+				5DBA8DAC2BCECD6F002B1E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CENTERtainment;
+			productName = CENTERtainment;
+			productReference = 5DBA8DAE2BCECD6F002B1E26 /* CENTERtainment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DBA8DA62BCECD6F002B1E26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					5DBA8DAD2BCECD6F002B1E26 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 5DBA8DA92BCECD6F002B1E26 /* Build configuration list for PBXProject "CENTERtainment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DBA8DA52BCECD6F002B1E26;
+			productRefGroup = 5DBA8DAF2BCECD6F002B1E26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DBA8DAD2BCECD6F002B1E26 /* CENTERtainment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DBA8DAC2BCECD6F002B1E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9352692BD188E40006D5BF /* TOS.txt in Resources */,
+				5DBA8DB92BCECD70002B1E26 /* Preview Assets.xcassets in Resources */,
+				5DBA8DB62BCECD70002B1E26 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DBA8DAA2BCECD6F002B1E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA019C32BD6B9F40025BF83 /* AllModulesView.swift in Sources */,
+				5D0926352BE799690039E155 /* GetPremiumView.swift in Sources */,
+				5DBA8DC02BCECDF0002B1E26 /* Properties.swift in Sources */,
+				5DDC28CB2BD2C23600248682 /* MainScreenView.swift in Sources */,
+				5D99548E2BD0210E001780FB /* CreatingAccView.swift in Sources */,
+				5D99548C2BD020F9001780FB /* RegisterView.swift in Sources */,
+				5DA019C72BD6C7470025BF83 /* FakeSocialView.swift in Sources */,
+				5DBA8DB42BCECD6F002B1E26 /* ContentView.swift in Sources */,
+				5DA019C12BD6B9D70025BF83 /* SettingsView.swift in Sources */,
+				5DA019C52BD6C6D40025BF83 /* CardPaymentView.swift in Sources */,
+				5DBA8DC22BCED7D5002B1E26 /* LoginView.swift in Sources */,
+				5D0926372BE7997D0039E155 /* MainScreenPremiumView.swift in Sources */,
+				5D9954902BD02142001780FB /* LoadingView.swift in Sources */,
+				5DE9A7012BEBB80E0004F8C4 /* PayForPremiumView.swift in Sources */,
+				5DBA8DB22BCECD6F002B1E26 /* CENTERtainmentApp.swift in Sources */,
+				5DDC28C92BD2BEA900248682 /* TransitionView1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5DBA8DBA2BCECD70002B1E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DBA8DBB2BCECD70002B1E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DBA8DBD2BCECD70002B1E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CENTERtainment/Preview Content\"";
+				DEVELOPMENT_TEAM = 9Y96KD339B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CENTERtainment;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = b1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uwu.corpcorp.CENTERtainment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DBA8DBE2BCECD70002B1E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CENTERtainment/Preview Content\"";
+				DEVELOPMENT_TEAM = 9Y96KD339B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CENTERtainment;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = b1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uwu.corpcorp.CENTERtainment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DBA8DA92BCECD6F002B1E26 /* Build configuration list for PBXProject "CENTERtainment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBA8DBA2BCECD70002B1E26 /* Debug */,
+				5DBA8DBB2BCECD70002B1E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DBA8DBC2BCECD70002B1E26 /* Build configuration list for PBXNativeTarget "CENTERtainment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBA8DBD2BCECD70002B1E26 /* Debug */,
+				5DBA8DBE2BCECD70002B1E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DBA8DA62BCECD6F002B1E26 /* Project object */;
+}
